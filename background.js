@@ -4,7 +4,7 @@ chrome.action.onClicked.addListener((tab) => {
         let currentUrl = currentTab.url;
 
         // Build the Ahrefs Traffic Checker URL with the current URL
-        let ahrefsUrl = `https://ahrefs.com/traffic-checker/?input=${currentUrl}&mode=subdomains`;
+        let ahrefsUrl = `https://ahrefs.com/traffic-checker/?input=${currentUrl}&mode=exact`;
 
         // Open the Ahrefs URL in a new tab
         chrome.tabs.create({ url: ahrefsUrl });
