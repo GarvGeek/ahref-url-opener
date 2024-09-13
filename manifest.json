@@ -5,7 +5,7 @@
   "description": "Check URLs and the active tab in Ahrefs Traffic Checker.",
   "permissions": [
     "tabs",
-    "contextMenus"  // Add both permissions
+    "contextMenus"
   ],
   "background": {
     "service_worker": "background.js"
