@@ -1,18 +1,21 @@
 {
-    "manifest_version": 3,
-    "name": "Ahrefs URL Opener",
-    "version": "1.0",
-    "description": "Automatically opens Ahrefs Traffic Checker with the URL of the active tab.",
-    "permissions": ["tabs", "activeTab"],
-    "action": {
-      "default_icon": {
-        "16": "icon.png",
-        "48": "icon.png",
-        "128": "icon.png"
-      }
-    },
-    "background": {
-      "service_worker": "background.js"
+  "manifest_version": 3,
+  "name": "Ahrefs URL Opener",
+  "version": "1.2",
+  "description": "Check URLs and the active tab in Ahrefs Traffic Checker.",
+  "permissions": [
+    "tabs",
+    "contextMenus"  // Add both permissions
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
     }
   }
-  
+}
