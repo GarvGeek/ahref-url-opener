@@ -35,6 +35,7 @@
 
 - **tabs**: Required to access the active tab's URL.
 - **activeTab**: Allows the extension to interact with the current tab.
+- **ContextMenu**: Allows to access ahref url opener from context menu.
 
 ## License
 
